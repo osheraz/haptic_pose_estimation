@@ -1,9 +1,9 @@
  <!--:construction_worker: :construction: **_This page is under construction_** :construction: :construction_worker:-->
 
 
-# Package for running rollouts with an underactuated robotic hand
+# Package for running rollouts with an underactuated robotic hand with flx-finger
 
-This page provides instructions and source code for working with underactuated adaptive hands and flx-finger. This is complementary material to the paper
+This page provides instructions, datasets and source code for working with underactuated adaptive hands and flx-finger. This is complementary material to the paper
 
 > ***Learning Haptic-based Object Pose Estimation for In-hand Manipulation with Underactuated Robotic Hands***
 
