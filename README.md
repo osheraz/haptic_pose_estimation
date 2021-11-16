@@ -15,7 +15,7 @@ To build the hands, follow instructions in the [Yale OpenHand project](https://w
 
 To build the flx-finger, follow instructions in the [flx-finger](https://github.com/osheraz/flx-tac-finger).
 
-Before launching the hand, load the `force.ino` code into the arduino.
+Before launching the hand, load the `force.ino` code into the arduino located in the `hand_control\arduino` folder.
 
 ---
 ### Control the Model-O with flx-finger
