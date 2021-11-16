@@ -1,0 +1,16 @@
+finger_initial_offset: [0.00,0.0]
+finger_opening_position: [0.00,0.00]
+finger_closing_position: [0.5,0.5]
+finger_move_offset: [0.01,0.01]
+finger_close_load: 80.0 # 50
+finger_max_load: 180.0
+simulation_step: 10
+pose_feedback: 'optitrack' #'camera'
+
+#finger_initial_offset: [0. ,0. , 0.]
+#finger_opening_position: [0., 0., 0.]
+#finger_closing_position: [0.5,0.5, 0.5]
+#finger_move_offset: [0.01,0.01, 0.01]
+#finger_close_load: 80.0 # 50
+#finger_max_load: 180.0
+#simulation_step: 10

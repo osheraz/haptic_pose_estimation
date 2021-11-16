@@ -1,0 +1,11 @@
+<launch>
+
+<!--  <node pkg="rollout" name="rollout_actor" type="rollout_actor.py" output="screen"/>-->
+<!--  <node pkg="rollout" name="rollout_recorder" type="rollout_recorder.py" output="screen"/>-->
+
+  <node pkg="rollout" name="rollout" type="rollout_mod.py" output="screen"/>
+  <node pkg="rollout" name="rollout_restart" type="rollout_reset.py" output="screen"/>
+
+
+
+</launch>
