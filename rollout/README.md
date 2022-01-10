@@ -5,9 +5,8 @@
 
 This page provides instructions and source code for working with underactuated adaptive hands. This is complementary material to the paper
 
-> ***Learning Haptic-based Object Pose Estimation\\ for In-hand Manipulation with Underactuated Robotic Hands***
+> ***Learning Haptic-based Object Pose Estimation\\ for Within-hand Manipulation with Underactuated Robotic Hands***
 
-submitted to the *IEEE Robotics and Automation Letters (RA-L) journal with the ICRA 2022*.
 
 **The code is based on ROS and tested on Melodic-devel.**
 
@@ -26,7 +25,7 @@ In order to launch a rollout collection automatically:
      roslaunch rollout rollout.launch
      rosrun rollout run_rollout.py
      ```
-  
+
 #### Available dataset:
 
 To generate the dataset, we used several simple action sequences to explore the workspace of the hand.
@@ -46,7 +45,7 @@ Example for accessing a transition data files:
 import numpy as np
 import pickle
 
-with open('states_01-09-2021_19-16-31_itr_3.pickle', 'rb') as f: 
+with open('states_01-09-2021_19-16-31_itr_3.pickle', 'rb') as f:
     episode = pickle.load(f)
     obs, acs, next_obs, time = episode['observation'], episode['action'], episode['next_observation'],  episode['time']
 

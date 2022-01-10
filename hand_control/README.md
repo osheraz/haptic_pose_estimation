@@ -5,9 +5,8 @@
 
 This page provides instructions and source code for working with underactuated adaptive hands. This is complementary material to the paper
 
-> ***Learning Haptic-based Object Pose Estimation\\ for In-hand Manipulation with Underactuated Robotic Hands***
+> ***Learning Haptic-based Object Pose Estimation\\ for Within-hand Manipulation with Underactuated Robotic Hands***
 
-submitted to the *IEEE Robotics and Automation Letters (RA-L) journal with the ICRA 2022*.
 
 **The code is based on ROS and tested on Melodic-devel.**
 
@@ -27,7 +26,7 @@ In order to control the hand:
      ```
      roslaunch hand_control run.launch
      ```
-  
+
 #### Available services:
 ```python
 rospy.Service('/OpenGripper', Empty, self.OpenGripper) # Move the gripper to the initial state
