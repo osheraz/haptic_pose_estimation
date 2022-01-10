@@ -7,8 +7,6 @@ This page provides instructions, datasets and source code for working with under
 
 > ***Learning Haptic-based Object Pose Estimation for In-hand Manipulation with Underactuated Robotic Hands***
 
-submitted to the *IEEE Robotics and Automation Letters (RA-L) journal with the ICRA 2022*.
-
 **The code is based on ROS and tested on Melodic-devel.**
 
 To build the hands, follow instructions in the [Yale OpenHand project](https://www.eng.yale.edu/grablab/openhand/).
