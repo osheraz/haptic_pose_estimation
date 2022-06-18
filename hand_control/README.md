@@ -5,7 +5,7 @@
 
 This page provides instructions and source code for working with underactuated adaptive hands. This is complementary material to the paper
 
-> ***Learning Haptic-based Object Pose Estimation\\ for Within-hand Manipulation with Underactuated Robotic Hands***
+> ***Learning Haptic-based Object Pose Estimation for in-hand Manipulation with Underactuated Robotic Hands***
 
 
 **The code is based on ROS and tested on Melodic-devel.**
